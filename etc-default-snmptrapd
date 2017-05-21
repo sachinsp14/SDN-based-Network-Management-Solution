@@ -1,0 +1,7 @@
+# This file controls the activity of snmptrapd
+
+# snmptrapd control (yes means start daemon).  
+TRAPDRUN=no
+
+# snmptrapd options (use syslog).
+TRAPDOPTS='-Lsd -p /run/snmptrapd.pid'
